@@ -1,0 +1,158 @@
+.logo {
+    font-family: sans-serif;
+    font-size: 28px;
+    text-transform: uppercase; 
+    font-weight: bold;  
+    margin-left: 60px; 
+}
+
+.logo::first-line {
+    color: #f52626;    
+}
+
+.logo span {
+    font-weight: initial;
+}
+
+.logo .search {
+    text-align: center;
+    width: 60%;
+}
+
+.logo input {
+    position: absolute;
+    top: 40px;    
+    border: 2px solid #bbb6b6;
+    padding: 12px 120px 10px 20px;
+}
+
+.info-text {    
+    position: relative;
+    bottom: 60px;
+    left: 200px;
+    text-align: center;
+}
+
+.info-text .free {
+    font-family: initial;
+    font-size: 24px;
+    text-transform: none;
+    font-weight: bold;
+    font-style: italic;    
+    color: #f52626;
+    line-height: 0;
+}
+
+.info-text .orders {
+    font-family: initial;
+    font-size: 16px;
+    text-transform: none;
+    font-weight: bold;
+    font-style: italic;
+    color: #f52626;
+}
+
+.frase {
+    text-transform: lowercase;
+    font-size: 18px;
+    font-family: cursive;
+    color: #79188a;
+    margin-top: -30px;
+    margin-left: 30px;
+}
+
+.menu {
+    background-color: #9c27b0;
+}
+
+.menu li {
+    display: inline-block;
+    color: #fff;
+    padding: 20px;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.login {
+    float: right;
+    margin: 0 120px 0 0;
+}
+
+.login li {
+    padding: 5px;
+    margin-top: 18px;
+}
+
+.login a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login span {
+    color: #585757;
+}
+
+.box-products {
+    text-align: center;
+}
+
+.products {
+    float: left;
+    margin: 5%;
+}
+
+.image {
+    width: 300px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.price {
+    padding: 10px;
+    color: crimson;
+}
+
+.fundo {
+    background-color: #f1ecec;
+    height: 300px;
+    margin-top: 1000px;
+}
+
+.fundo li {
+    color: #f52626;
+    display: inline-block;
+    margin: 80px 0 0 40px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+
+.info-promo {
+    float: right;
+    background-color: #fff;
+    padding: 15px;
+    margin-right: 190px;
+    position: relative;
+    bottom: 90px;
+}
+
+.info-promo p {
+    font-family: serif;
+    font-size: 18px;
+}
+
+.info-promo input[value="SUBMIT"]{
+    background-color: #f52626;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.info-promo input[type="text"] {
+    width: 270px;
+    padding: 8px;
+    border-radius: 4px;
+}
